@@ -1,0 +1,78 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: darkblue;
+}
+.telegram{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    transform: translateY(50px) translateX(100px);
+    transition: 0.5s;
+
+}
+h3{
+    color: white ;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.telegram:hover{
+    transition: 0.5s;
+    border: 2px solid red;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    transform: translateY(100px) translateX(100px);
+    transition: 0.5s;
+
+}
+
+.instagram:hover{
+    transition: 0.5s;
+    border: 2px solid red;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    transform: translateY(50px) translateX(100px);
+    transition: 0.5s;
+    margin-top: 100px;
+
+}
+
+.email:hover{
+    transition: 0.5s;
+    border: 2px solid red;
+}
+.iconka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    transform: translateX(700px) translateY(-200px);
+    border-radius: 20px;
+}
+.iconka svg{
+    color: #fff;
+    font-size: 60px;
+    transform: translateY(-20px) translateX(50px);
+}
+
+.iconka:hover{
+    border: 2px solid red;
+    box-shadow: 0 0 10px 10px greenyellow;
+}
